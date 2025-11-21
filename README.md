@@ -1,50 +1,87 @@
-# Welcome to your Expo app 👋
+# 🦅 App Hórus
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+> Uma aplicação social mobile para um projeto de exetensão com estética Black & Gold, desenvolvida com React Native e Expo.
 
-## Get started
+![Badge React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Badge Expo](https://img.shields.io/badge/Expo-000020?style=for-the-badge&logo=expo&logoColor=white)
+![Badge TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 
-1. Install dependencies
+---
 
+## 📸 Screenshots
+
+## 📱 Sobre o Projeto
+
+O **App Hórus** é um projeto de rede social focado em uma experiência de usuário visualmente impactante. O design utiliza uma paleta de cores de alto contraste (Preto e Dourado) e tipografia serifada para transmitir elegância.
+
+O projeto foi construído utilizando a arquitetura moderna do **Expo Router** (navegação baseada em arquivos).
+
+## 🎨 Design System
+
+O visual do app foi cuidadosamente planejado:
+* **Cores Primárias:** `#000000` (Dark BG) e `#D4AF37` (Gold).
+* **Navegação:** Tab Bar customizada com botão central de ação flutuante.
+* **Estilo:** Elementos curvos no topo (Header) e ícones minimalistas.
+
+## 🚀 Funcionalidades Implementadas
+
+* ✅ **Autenticação:** Telas de Login e Cadastro.
+* ✅ **Navegação Avançada:** * Stack Navigation (Fluxo de entrada).
+    * Tab Navigation (Abas principais).
+    * Botão central customizado (Create Post).
+* ✅ **Feed & Postagem:** Interface para criação de posts com opções de mídia.
+* ✅ **Perfil de Usuário:**
+    * Galeria de fotos em Grid responsivo.
+    * Estatísticas (Seguidores/Seguindo).
+    * Header com design curvo.
+* ✅ **Central de Notificações:** Lista interativa com ícones dinâmicos baseados no tipo de interação (Like, Comentário, Follow).
+* ✅ **Configurações:** Menu de ajustes gerais com Switches e Listas.
+
+## 🛠 Tecnologias Utilizadas
+
+* **React Native** (Framework principal)
+* **Expo SDK** (Plataforma de desenvolvimento)
+* **Expo Router** (Roteamento baseado em arquivos - File-based routing)
+* **TypeScript** (Tipagem estática)
+* **StyleSheet** (Estilização nativa)
+* **Lucide Icons / Ionicons** (Ícones vetoriais)
+## 📦 Como rodar o projeto
+
+1. **Clone o repositório**
    ```bash
-   npm install
-   ```
+   git clone [https://github.com/rayramello/app-horus-new.git](https://github.com/rayramello/app-horus-new.git)
+Instale as dependências
 
-2. Start the app
+Bash
 
+cd app-horus-new
+npm install
+Execute o projeto
+
+Bash
+
+npx expo start
+Teste
+
+Escaneie o QR Code com o app Expo Go (Android/iOS).
+
+Ou pressione a para abrir no Emulador Android.
+
+Ou pressione w para abrir na Web.
+
+📂 Estrutura de Pastas
+app-horus-new/
+├── app/
+│   ├── (tabs)/          # Telas da navegação inferior (Home, Profile, etc.)
+│   │   ├── _layout.tsx  # Configuração da TabBar
+│   │   └── ...
+│   ├── _layout.tsx      # Configuração da Stack (Root)
+│   ├── index.tsx        # Tela inicial
+│   └── login.tsx        # Tela de Login
+├── assets/              # Imagens e fontes
+└── components/          # Componentes reutilizáveis
+Desenvolvido por Rayra Mello.
+
+1. **Clone o repositório**
    ```bash
-   npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+   git clone [https://github.com/rayramello/app-horus-new.git](https://github.com/rayramello/app-horus-new.git)
