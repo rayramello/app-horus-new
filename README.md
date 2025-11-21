@@ -10,6 +10,7 @@
 
 ## 📸 Screenshots
 
+
 ## 📱 Sobre o Projeto
 
 O **App Hórus** é um projeto de rede social focado em uma experiência de usuário visualmente impactante. O design utiliza uma paleta de cores de alto contraste (Preto e Dourado) e tipografia serifada para transmitir elegância.
